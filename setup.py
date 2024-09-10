@@ -10,6 +10,8 @@ from setuptools.command.build_py import build_py as _build_py
 from setuptools.command.sdist import sdist as _sdist
 
 
+#shubham
+
 def _read_content(path: str) -> str:
     return (Path(__file__).parent / path).read_text(encoding="utf-8")
 
